@@ -1,0 +1,21 @@
+Track
+id - Primary key
+title - Logical key
+rating
+len
+count
+album_id - Foreign key
+genre_id - Foreign key
+
+Genre
+id - Primary key
+name - Logical key
+
+Album
+id - Primary key
+title - Logical key
+artist_id - Foreign key
+
+Artist 
+id - Primary key
+name - Logical key

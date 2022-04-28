@@ -1,0 +1,13 @@
+this is a test file
+with spaces and a lot of newline
+# this is a comment
+characters. make sure to not spot any diferences 
+# make sure to print this part.
+in the boy this is cool not.
+not sure what i am typing but to make sure that the program works we need to do this.
+that being said i discovered that i really love to type
+another thing i learned that i fucking love reading books.
+reading books make me feel more creadible for some unknown reason.
+making sure that i type this perfectly.
+tomorrow i have a class that i don't want to go.
+help me love.

@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Vikram",
+    "course": "CS",
+    "role": 0
+  },
+  {
+    "name": "Alison",
+    "course": "Math",
+    "role": 1
+  },
+  {
+    "name": "Amy",
+    "course": "CS",
+    "role": 1
+  },
+  {
+    "name": "Morgan",
+    "course": "CS",
+    "role": 0
+  },
+  {
+    "name": "Dani",
+    "course": "Math",
+    "role": 0
+  },
+  {
+    "name": "Brie",
+    "course": "CS",
+    "role": 0
+  },
+  {
+    "name": "Madison",
+    "course": "English",
+    "role": 0
+  },
+  {
+    "name": "Alex",
+    "course": "Math",
+    "role": 0
+  },
+  {
+    "name": "Blake",
+    "course": "English",
+    "role": 0
+  },
+  {
+    "name": "Michelle",
+    "course": "Math",
+    "role": 0
+  },
+  {
+    "name": "Nicole",
+    "course": "English",
+    "role": 1
+  },
+  {
+    "name": "Natalie",
+    "course": "CS",
+    "role": 0
+  },
+  {
+    "name": "Marx",
+    "course": "English",
+    "role": 0
+  },
+  {
+    "name": "Harry",
+    "course": "Math",
+    "role": 0
+  },
+  {
+    "name": "Jessy",
+    "course": "CS",
+    "role": 0
+  },
+  {
+    "name": "Blake",
+    "course": "CS",
+    "role": 0
+  },
+  {
+    "name": "Michelle",
+    "course": "English",
+    "role": 0
+  },
+  {
+    "name": "Nicole",
+    "course": "CS",
+    "role": 0
+  },
+  {
+    "name": "Vikram",
+    "course": "Math",
+    "role": 0
+  },
+  {
+    "name": "Alison",
+    "course": "CS",
+    "role": 0
+  },
+  {
+    "name": "Amy",
+    "course": "Math",
+    "role": 0
+  },
+  {
+    "name": "Morgan",
+    "course": "Math",
+    "role": 0
+  },
+  {
+    "name": "Dani",
+    "course": "CS",
+    "role": 0
+  }
+]

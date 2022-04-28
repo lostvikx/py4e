@@ -1,0 +1,52 @@
+# Join Operation (SQL):
+
+SELECT Album.title, Artist.name 
+FROM Album JOIN Artist
+ON Album.artist_id = Artist.id;
+
+#! Joining two tables without the ON clause gives all possible combinations of rows.
+
+SELECT Track.title, Track.genre_id, Genre.id, Genre.name
+FROM Track JOIN Genre
+ON Track.genre_id = Genre.id;
+
+# Boom!
+SELECT Track.title AS "Track", Artist.name AS "Artist", Album.title AS "Album", Genre.name AS "Genre"
+FROM Track JOIN Album JOIN Artist JOIN Genre
+ON Track.album_id = Album.id AND Track.genre_id = Genre.id AND Album.artist_id = Artist.id;
+
+---
+
+# Many-to-many relationships
+
+# Schema
+CREATE TABLE User (
+	"id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	"name" TEXT UNIQUE,
+	"email" TEXT UNIQUE
+);
+CREATE TABLE Course (
+	"id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	"title" TEXT UNIQUE
+);
+CREATE TABLE Member (
+	"user_id" INTEGER,
+	"course_id" INTEGER,
+	"role" INTEGER,
+	PRIMARY KEY (user_id, course_id)
+);
+
+// "role" == 0 => Student
+// "role" == 1 => Teacher
+
+# Query!
+SELECT User.name, Course.title, Member.role
+FROM User JOIN Member JOIN Course
+ON Member.user_id = User.id AND Member.course_id = Course.id
+ORDER BY Course.title, Member.role DESC, User.name;
+
+# Perfect!
+SELECT User.name AS "Name", Course.title AS "Course", Member.role AS "Role"
+FROM User JOIN Member JOIN Course
+ON Member.user_id = User.id AND Member.course_id = Course.id
+ORDER BY "Course", "Role" DESC, "Name";
